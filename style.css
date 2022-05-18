@@ -22,6 +22,7 @@ main {
 body,
 html {
     height: 100%;
+    width: 100%;
 }
 
 /*---------------------------------- Entrada de texto --------------------------------------------*/
@@ -56,6 +57,11 @@ html {
     margin-top: 2%;
     flex-direction: row;
     margin-bottom: 7%;
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 }
 
 .Esconder {
