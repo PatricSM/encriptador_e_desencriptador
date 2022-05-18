@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS  PC -->
+    <link rel="stylesheet" href="style.css">
+    <title>Decody - Mago Encriptador</title>
+    <!-- RESET -->
+    <link rel="stylesheet" href="reset.css">
+    <!--Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Icone -->
+    <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+    <!--CSS Tablet -->
+    <link rel="stylesheet" href="tablet.css"> 
+    <!--CSS Celular -->
+    <link rel="stylesheet" href="mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+</head>
+
+<body>
+    <!-------------------------------------- Cabeçalho ------------------------------------------------------------->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <img id="logo" src="imagens/Decody.png" alt="Imagem logo Decody.">
+        </nav>
+
+    </header>
+    <!----------------------------------- Entrada de Texto ------------------------------------------------------>
+    <main class="main">
+        <section class="input-area">
+
+            <div class="input-box">
+                <textarea class="entrada_texto" id="entrada" placeholder="Digite aqui a mensagem que preciso esconder ou revelar!" cols="18" rows="8"></textarea>
+                <h6 class="informacao"><i class="fa-solid fa-circle-exclamation"></i> Apenas letras maiúsculas e minúsculas</h6>
+                <div class="botoes-acao">
+                    <button type="button" class="Esconder"
+                        onclick="btnEncriptar()">Esconder</button>
+                    <button type="button" class="Revelar"
+                        onclick="btnDesencriptar()">Revelar</button>
+                </div>
+            </div>
+
+        </section>
+        <!---------------------------------- Saída de texto ------------------------------------------------------>
+        <section class="saida">
+
+            <div class="caixa_saida">
+                <textarea id="saida" class="saida_texto" cols="10" rows="5" readonly></textarea>
+            </div>
+            <div>
+                <button id="copiar" type="button" onclick="copiarTexto()">Copiar</button>
+            </div>
+
+
+        </section>
+
+    </main>
+    <!---------------------------------- Rodapé ------------------------------------------------------>
+    <footer id="footer">
+        <div>
+            <a href="https://github.com/PatricSM"><i class="redes fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/patric-martins/"><i class="redes fa-brands fa-linkedin"></i></a>
+            <p class="p-footer">© Decody - Encriptador e Desencriptador | By PSM</p>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+@media screen and (max-width: 896px) {
+
+    /*---------------------------------------- Cabeçalho ---------------------------------------------------*/
+    #logo {
+        width: 20%;
+        margin-left: 39%;
+    }
+
+    /*----------------------------------------- Geral -------------------------------------------------------*/
+    html {
+        height: 100%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    /*---------------------------------------- Entrada de texto --------------------------------------------*/
+
+    .entrada_texto {
+        margin: 8% 20% 0 10%;
+        width: 80%;
+        background-color: #1F1D36;
+    }
+
+    .entrada_texto::placeholder {
+        font-size: 20px;
+    }
+
+    .informacao {
+        margin-left: 10%;
+    }
+
+    /*---------------------------------- Botões da entrada de texto ----------------------------------*/
+
+    .Esconder {
+        margin: 0 0 0 10%;
+        width: 35%;
+    }
+
+    .Revelar {
+        text-align: center;
+        margin: 0 0 0 4%;
+        width: 40%;
+    }
+
+    /*---------------------------------- Caixa de saída de texto -------------------------------------*/
+
+    .caixa_saida {
+        margin: 0 0 0 10%;
+        width: 80%;
+        height: 90%;
+    }
+
+    .saida_texto {
+        background-position-x: 30px;
+        background-position-y: center;
+        width: 80%;
+    }
+
+    /*---------------------------------- Botão de Copiar ---------------------------------------------*/
+
+    #copiar {
+        margin: 3% 0 4% 0;
+    }
+}
