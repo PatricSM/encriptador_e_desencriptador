@@ -84,8 +84,8 @@ html {
 }
 
 .Revelar {
-    background: linear-gradient(to bottom, #4A00E0 5%, #8E2DE2 100%);
-    background-color: #008fe7;
+    background: linear-gradient(to bottom, #8E2DE2 5%, #4A00E0 100%);
+    background-color: #922eeb;
     border-radius: 7px;
     display: inline-block;
     cursor: pointer;
