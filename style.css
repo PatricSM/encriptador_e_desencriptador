@@ -32,15 +32,15 @@ html {
 }
 
 .entrada_texto {
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 300px;
     width: 400px;
-    height: 420px;
+    height: 480px;
     padding: 20px;
     font-size: 26px;
     line-height: 125%;
     color: white;
-    background-color: transparent;
+    background-color: #1F1D36;
     border-radius: 8px;
     border: none;
     resize: none;
